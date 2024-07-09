@@ -1,0 +1,38 @@
+.loginContainer{
+  display: grid;
+  height: 100vh;
+  text-align: center;
+  color: black;
+}
+
+.logininnercontainer{
+  padding-top: 20%;
+
+}
+
+.backReturn{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.loginBtn{
+  background-color: #009963;  
+  padding: 10px 50px;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+.bottomTag {
+   position: absolute;
+   bottom: 30px;
+   width: 100%;
+}
+
+.bottomTag p{
+  text-align: center;
+  font-size: small;
+}

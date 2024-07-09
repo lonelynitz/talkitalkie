@@ -1,0 +1,40 @@
+.chatContainer{
+  background-color: #211214;
+  height: 100vh;
+  position: relative;
+}
+
+.chat {
+  padding-top: 15%;
+}
+
+.chat p{
+  margin: 0;
+  text-align: center;
+}
+
+.OTTplayer {
+  background-color: aliceblue;
+  height: 150px; 
+  width: 300px; 
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.chatsearch{
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+.chatsearch input{
+  border: none;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+.youtubeSearch {
+  text-align: center;
+  padding: 5px;
+}

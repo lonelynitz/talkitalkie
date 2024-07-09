@@ -1,0 +1,77 @@
+
+body{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #FFFFFF;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.homepage{
+  height: 100vh;
+}
+
+.container{
+  background-image: url('./assets/image/image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30%;
+}
+
+.innercontainer{
+  background-color: #FFFFFF;
+  height: 70%;
+  border-radius: 10px;
+  position: relative;
+  color: black;
+}
+
+.welcomeContainer{
+  display: grid;
+  justify-content: center;
+  font-weight: bolder;
+  color: #000000;
+  padding-top: 10%;
+  gap: 5%;
+  }
+
+.welcomeContainer p{
+  margin: 0;
+  font-size: x-large;
+  text-align: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.welcomeContainer h5{
+  text-align: center;
+}
+
+.startBtn{
+  position: absolute;
+  width: 100%;
+  bottom: 80px;
+  text-align: center;
+}
+
+.getStartedBtn {
+  border-radius: 20px; 
+  padding: 10px 50px; 
+  background-color: #009963; 
+  color: white; 
+  cursor: pointer;
+  font-size: medium;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.btmlogin{
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+}
+
+.btmlogin p {
+  font-size: small;
+  text-align: center;
+}

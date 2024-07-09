@@ -1,0 +1,75 @@
+.roomchatContainer {
+  background-color: #211214;
+  height: 100vh;
+  padding: 0;
+  position: relative;
+
+}
+
+.innerContainer {
+  text-align: center;
+}
+
+.innerContainer p{
+  margin: 0;
+}
+
+.roomInnerContainer {
+  padding-top: 10%;
+  position: relative;
+}
+
+.roomExitbtn { 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 7%;
+    position: absolute;
+    bottom: 0;
+    background-color: #583030;
+    cursor: pointer;
+}
+
+.roomOTT {
+  text-align: left;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: column;  /* Change to column to stack items vertically */
+  gap: 20px;  /* Add some space between each item */
+}
+
+.ottItem{
+  display: flex;
+  justify-content: space-between;
+}
+
+.roomBchatexit {
+  position: absolute;
+  left: 10%;
+  top: 10px;
+  cursor: pointer;
+}
+
+.roomConnect {
+  background-color: #E8305E;
+  border: none;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 4px 15px;
+  align-items: center;
+}
+
+.roomExit {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  gap: 10;
+}
+
+.roomChat {
+  display: flex;
+  align-items: center;
+}
